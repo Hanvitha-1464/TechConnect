@@ -18,7 +18,12 @@ const CodingRoutes = require('./Routes/CodingRoutes');
 const PreferenceRoutes=require('./Routes/PreferenceRoutes');
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL, // Allow only frontend
+  origin: [
+    "https://tech-connect-drab.vercel.app",  // Netlify frontend
+    process.env.FRONTEND_URL,
+    "https://local:5173"
+      // Another allowed frontend URL (if defined)
+  ], // Allow only frontend
     credentials: true, // Allow cookies/authentication headers
     methods: ["GET", "POST", "PUT", "DELETE","PATCH"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers

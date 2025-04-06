@@ -4,10 +4,14 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/',  // Ensures correct asset paths
+  build: {
+    outDir: 'dist',  // Make sure this matches what you deployed
+  },
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://tech--connect.azurewebsites.net/',
         changeOrigin: true,
       }
     },
