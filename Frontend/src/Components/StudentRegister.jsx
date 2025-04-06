@@ -353,7 +353,7 @@ const StudentRegistration = () => {
                         />
                         <label htmlFor={`sig-${club.id}-${sig.id}`} className="ml-2 block text-sm cursor-pointer">
                           <span className="font-medium text-gray-200">{sig.name}</span> - {sig.description}
-                          <div className="text-xs text-gray-400 mt-1 font-medium">Test Time: {sig.testTime}</div>
+                          {/* <div className="text-xs text-gray-400 mt-1 font-medium">Test Time: {sig.testTime}</div> */}
                         </label>
                       </div>
                     ))}
