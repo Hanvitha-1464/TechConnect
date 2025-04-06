@@ -116,11 +116,11 @@ const IetDashboard = () => {
       hoverColor: "hover:from-cyan-600 hover:to-sky-700"
     },
     {
-      icon: <FaQuestionCircle size={40} className="text-cyan-400" />,
+      icon: <FaQuestionCircle size={40} className="text-orange-400" />,
       title: "Registered Student Details",
       path: "/ietdetails",
-      color: "from-cyan-500 to-sky-600",
-      hoverColor: "hover:from-cyan-600 hover:to-sky-700"
+      color: "from-orange-500 to-amber-600",
+      hoverColor: "hover:from-orange-600 hover:to-amber-700"
     },
     {
       icon: <FaListAlt size={40} className="text-cyan-400" />,
