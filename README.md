@@ -1,6 +1,9 @@
 # TechConnect
 
 ## Project Overview
+
+https://tech-connect-drab.vercel.app/
+
 TechConnect is a dynamic and user-friendly platform designed to streamline tech club recruitment processes. This centralized system eliminates the hassle of manual management, providing an efficient recruitment experience for both students and organizers.
 
 Managing club recruitment activities such as registrations, pre-recruitment talks, online assessments, and announcements manually can be time-consuming and inefficient. TechConnect solves this by creating a centralized platform where:
